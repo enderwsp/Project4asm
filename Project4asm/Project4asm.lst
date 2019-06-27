@@ -1,0 +1,28 @@
+Microsoft (R) Macro Assembler (x64) Version 14.21.27702.2   06/27/19 11:45:14
+demo.asm						     Page 1 - 1
+
+
+ 00000000			.code;代码段
+ 00000000			main proc;a函数开始
+ 00000000  48/ C7 C0		 mov rax,120
+	   00000078
+ 00000007  48/ 83 C0 22		 add rax,34
+ 0000000B  48/ 2D		 sub rax,130
+	   00000082
+ 00000011  C3			 ret
+ 00000012			main endp;a函数结束
+				end
+Microsoft (R) Macro Assembler (x64) Version 14.21.27702.2   06/27/19 11:45:14
+demo.asm						     Symbols 2 - 1
+
+
+
+
+Procedures, parameters, and locals:
+
+                N a m e                 Type     Value    Attr
+
+main . . . . . . . . . . . . . .	P 	 00000000 _TEXT	Length= 00000012 Public
+
+	   0 Warnings
+	   0 Errors
